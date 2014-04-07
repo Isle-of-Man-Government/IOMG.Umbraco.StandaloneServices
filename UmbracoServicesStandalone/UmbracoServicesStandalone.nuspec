@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>IOMG.Umbraco.StandaloneServices</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>Standalone Services for Umbraco</title>
     <authors>Isle of Man Government</authors>
     <owners>Isle of Man Government</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library to enable access to Umbraco Services outside of Umbraco</description>
-    <releaseNotes>First release.</releaseNotes>
+    <releaseNotes>Restored DatabaseContext as without this call access to some services was not possible</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>Umbraco</tags>
     <dependencies>

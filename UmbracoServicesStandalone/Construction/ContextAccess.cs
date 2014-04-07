@@ -14,7 +14,8 @@ namespace IOMG.Umbraco.StandaloneServices.Construction
             var AppBase = new StandaloneBase();
             if (ApplicationContext.Current == null)
                 AppBase.Start(AppBase, new EventArgs());
-            var AppContext = ApplicationContext.Current;            
+            var AppContext = ApplicationContext.Current;
+            var DatabaseContext = AppContext.DatabaseContext;
             return AppContext.Services;
         }
 
