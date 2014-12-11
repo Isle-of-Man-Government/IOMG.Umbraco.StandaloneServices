@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IOMG.Umbraco.StandaloneServices</id>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <title>Standalone Services for Umbraco</title>
     <authors>Isle of Man Government</authors>
     <owners>Isle of Man Government</owners>
